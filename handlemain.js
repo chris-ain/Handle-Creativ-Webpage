@@ -192,7 +192,7 @@ gsap.registerPlugin(ScrollTrigger);
               // });
             },
             afterEnter() {
-                $('.button').on('click', function(){
+                $('.next_proj).on('click', function(){
     $('.c-loader').toggleClass('.loader_none');
   });
               $(document).ready(function () {
