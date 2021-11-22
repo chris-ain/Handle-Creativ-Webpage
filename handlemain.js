@@ -192,6 +192,9 @@ gsap.registerPlugin(ScrollTrigger);
               // });
             },
             afterEnter() {
+                $('.button').on('click', function(){
+    $('.c-loader').toggleClass('.loader_none');
+  });
               $(document).ready(function () {
                 // When we begin, assume no images are loaded.
                 // Count the total number of images on the page when the page has loaded.
