@@ -16,6 +16,7 @@ gsap.registerPlugin(ScrollTrigger);
 //MAIN//
 
 
+
   function init() {
     var imagesLoaded = 0;
 
