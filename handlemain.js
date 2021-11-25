@@ -290,7 +290,15 @@ gsap.registerPlugin(ScrollTrigger);
         smooth: true,
         inertia: 0.5,
         passive: true,
-      });
+          mobile: {
+      breakpoint: 0,
+      smooth: true,
+    },
+    tablet: {
+      breakpoint: 0,
+      smooth: true,
+    },
+  });
 
       smoothScroll.on("scroll", ScrollTrigger.update);
 
