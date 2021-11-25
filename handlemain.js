@@ -192,7 +192,6 @@ gsap.registerPlugin(ScrollTrigger);
               // });
             },
             afterEnter() {
-               
               $(document).ready(function () {
                 // When we begin, assume no images are loaded.
                 // Count the total number of images on the page when the page has loaded.
@@ -287,16 +286,16 @@ gsap.registerPlugin(ScrollTrigger);
         el: document.getElementById("page-content"),
         smooth: true,
         inertia: 0.5,
-        passive: true,
-          mobile: {
-      breakpoint: 0,
-      smooth: true,
-    },
-    tablet: {
-      breakpoint: 0,
-      smooth: true,
-    },
-  });
+        mobile: {
+          breakpoint: 0,
+          smooth: true,
+        },
+        tablet: {
+          breakpoint: 0,
+          smooth: true,
+        },
+      });
+    
 
       smoothScroll.on("scroll", ScrollTrigger.update);
 
@@ -402,7 +401,6 @@ gsap.registerPlugin(ScrollTrigger);
   init();
 
   });
-
 
 
 
